@@ -1,0 +1,6 @@
+<svg width="16" height="16" fill="none">
+  <path fill="#706F6F" fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z" clip-rule="evenodd"/>
+  <path fill="#706F6F" fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z" clip-rule="evenodd"/>
+  <path fill="#fff" d="m8 7.338 3.935-2.309a1.249 1.249 0 0 0-1.023-.549H5.088a1.248 1.248 0 0 0-1.032.545L8 7.338Z"/>
+  <path fill="#fff" d="M8.416 8.053a.832.832 0 0 1-.832.005L3.84 5.865v4.023a1.248 1.248 0 0 0 1.248 1.248h5.824a1.248 1.248 0 0 0 1.248-1.248V5.865L8.416 8.053Z"/>
+</svg>

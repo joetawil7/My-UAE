@@ -1,11 +1,92 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
     "strict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
+      "@navigation": [
+        "src/navigation"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@screens": [
+        "src/screens"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@types": [
+        "src/types"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@styles": [
+        "src/styles"
+      ],
+      "@icons/*": [
+        "icons/*"
+      ],
+      "@icons": [
+        "icons"
+      ],
+      "@globals/*": [
+        "src/globals/*"
+      ],
+      "@globals": [
+        "src/globals"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@theme/*": [
+        "src/theme/*"
+      ],
+      "@theme": [
+        "src/theme"
+      ],
+      "@authentication": [
+        "src/services/authentication"
+      ],
+      "@authentication/*": [
+        "src/services/authentication/*"
+      ],
+      "@assets": [
+        "assets"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@localization": [
+        "src/localization"
+      ],
+      "@localization/*": [
+        "src/localization/*"
+      ],
     }
   },
   "include": [
